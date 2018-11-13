@@ -12,9 +12,11 @@ public class Lottery_2 {
 		Random rand = new Random();
 		
 		// generate lottery number
-		int lottery = rand.nextInt(100) + 1;
+		int lottery = rand.nextInt(99) + 1;
 		out.println("Enter your lottery number pick (2 digits): ");
 		int guess = input.nextInt();
+		
+		out.println(lottery);
 		
 		// get digits from lottery
 		int lotteryDigit1 = lottery / 10;
