@@ -5,7 +5,7 @@ import static java.lang.System.out;
 
 public class Birthday_guessing {
 
-	@SuppressWarnings({"unused", "resource" })
+	@SuppressWarnings({"resource" })
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
